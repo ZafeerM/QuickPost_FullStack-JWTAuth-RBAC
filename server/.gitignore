@@ -1,0 +1,7 @@
+# The Usual
+node_modules
+package-lock.json
+.env
+
+# WORD File For Daily Logging
+ProjectLogs.docx
