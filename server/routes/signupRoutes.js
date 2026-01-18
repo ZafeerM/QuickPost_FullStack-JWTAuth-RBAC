@@ -5,7 +5,7 @@ const express = require("express");
 const router = express.Router();
 
 // SignUP Controller import
-const { signupHandler } = require("../controllers/signupController");
+const { signupHandler } = require("../controllers/authController");
 
 // Routing Connections
 router.route("/").post(signupHandler);

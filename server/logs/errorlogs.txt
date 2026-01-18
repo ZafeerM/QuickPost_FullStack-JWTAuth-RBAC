@@ -1,0 +1,60 @@
+Error	undefined	GET	/login	 Blocked By CORS. 		 17/01/2026	18:18:37
+Error	https://www.yahoo.com	GET	/Login	 Blocked By CORS. 		 17/01/2026	20:48:57
+Error	undefined	POST	/Login	 Blocked By CORS. 		 17/01/2026	20:55:45
+Error	undefined	POST	/Login	 Invalid Or Empty User or Pass in req body 		 17/01/2026	20:57:43
+undefined	undefined	POST	/Login	 undefined 		 17/01/2026	20:58:17
+Error	undefined	POST	/Login	 Invalid Or Empty User or Pass in req body 		 17/01/2026	21:02:57
+Error	undefined	POST	/Login	 Invalid Or Empty User or Pass in req body 		 17/01/2026	21:13:13
+Error	undefined	POST	/Login	 Username or Password Incorrect 		 17/01/2026	22:50:29
+Error	undefined	POST	/Login	 Username or Password Incorrect 		 17/01/2026	22:52:44
+TypeError	undefined	POST	/Login	 res.status is not a function 		 17/01/2026	22:52:48
+TypeError	undefined	POST	/Login	 res.status is not a function 		 17/01/2026	22:53:06
+Error	undefined	POST	/Login	 Username or Password Incorrect 		 17/01/2026	22:55:19
+Error	undefined	POST	/Login	 Invalid Or Empty User or Pass in req body 		 17/01/2026	22:55:23
+TypeError	undefined	POST	/Login	 Cannot read properties of undefined (reading 'user_pass') 		 17/01/2026	23:12:12
+TypeError	undefined	POST	/Login	 Cannot read properties of undefined (reading 'user_pass') 		 17/01/2026	23:13:08
+Error	undefined	POST	/Login	 Username or Password Incorrect 		 17/01/2026	23:13:57
+Error	undefined	POST	/Login	 Username or Password Incorrect 		 17/01/2026	23:14:05
+Error	undefined	POST	/Login	 Username or Password Incorrect 		 17/01/2026	23:14:09
+Error	undefined	POST	/Login	 Invalid Or Empty User or Pass in req body 		 17/01/2026	23:14:12
+Error	undefined	POST	/Login	 Username or Password Incorrect 		 17/01/2026	23:14:14
+TypeError	undefined	POST	/Login	 getToken is not a function 		 17/01/2026	23:48:14
+ReferenceError	undefined	POST	/Login	 token is not defined 		 17/01/2026	23:50:56
+Error	undefined	POST	/Login	 Username or Password Incorrect 		 18/01/2026	01:46:57
+Error	undefined	POST	/Login	 Username or Password Incorrect 		 18/01/2026	01:49:25
+TypeError	undefined	POST	/Login	 Cannot read properties of undefined (reading 'id') 		 18/01/2026	18:21:20
+Error	undefined	POST	/Login	 Refresh Token Already Exists! 		 18/01/2026	18:29:29
+Error	undefined	POST	/Login	 Refresh Token Already Exists! (Already Logged In) 		 18/01/2026	18:30:10
+Error	undefined	POST	/Login	 Refresh Token Already Exists! (Already Logged In) 		 18/01/2026	18:31:16
+Error	undefined	POST	/Signup	 Username Already In Use 		 18/01/2026	18:45:50
+Error	undefined	POST	/Signup	 Username Already In Use 		 18/01/2026	19:35:40
+Error	undefined	POST	/Signup	 Username Already In Use 		 18/01/2026	19:38:03
+Error	undefined	POST	/Login	 Refresh Token Already Exists! (Already Logged In) 		 18/01/2026	19:38:07
+Error	undefined	POST	/Login	 Refresh Token Already Exists! (Already Logged In) 		 18/01/2026	21:05:59
+Error	undefined	POST	/Login	 Refresh Token Already Exists! (Already Logged In) 		 18/01/2026	21:09:23
+Error	undefined	POST	/Login	 Refresh Token Already Exists! (Already Logged In) 		 18/01/2026	22:11:15
+Error	undefined	POST	/Login	 Refresh Token Already Exists! (Already Logged In) 		 18/01/2026	22:29:45
+Error	undefined	POST	/Logout	 hello 		 18/01/2026	22:30:18
+Error	undefined	POST	/Logout	 jwt malformed 		 18/01/2026	22:30:39
+Error	undefined	POST	/Logout	 jwt malformed 		 18/01/2026	22:33:06
+Error	undefined	POST	/Logout	 jwt expired 		 18/01/2026	22:33:20
+Error	undefined	POST	/Logout	 jwt expired 		 18/01/2026	22:38:43
+Error	undefined	POST	/Signup	 Username Already In Use 		 18/01/2026	22:39:19
+Error	undefined	POST	/Logout	 jwt expired 		 18/01/2026	22:40:26
+Error	undefined	POST	/Logout	 jwt expired 		 18/01/2026	22:41:23
+Error	undefined	POST	/Signup	 Username Already In Use 		 18/01/2026	22:41:41
+Error	undefined	POST	/Login	 Refresh Token Already Exists! (Already Logged In) 		 18/01/2026	22:41:47
+Error	undefined	POST	/Login	 Refresh Token Already Exists! (Already Logged In) 		 18/01/2026	22:41:51
+Error	undefined	POST	/Login	 Refresh Token Already Exists! (Already Logged In) 		 18/01/2026	22:42:08
+Error	undefined	POST	/Logout	 Cannot read properties of undefined (reading 'userID') 		 18/01/2026	22:42:32
+Error	undefined	POST	/Logout	 Cannot read properties of undefined (reading 'userID') 		 18/01/2026	22:50:16
+Error	undefined	POST	/Logout	 Cannot read properties of undefined (reading 'userID') 		 18/01/2026	22:50:41
+Error	undefined	POST	/Logout	 Cannot read properties of undefined (reading 'userID') 		 18/01/2026	22:51:22
+Error	undefined	POST	/Logout	 verifyReturn is not defined 		 18/01/2026	22:51:50
+Error	undefined	POST	/Logout	 Unterminated string in JSON at position 60 (line 1 column 61) 		 18/01/2026	22:52:13
+Error	undefined	POST	/Logout	 Unterminated string in JSON at position 60 (line 1 column 61) 		 18/01/2026	22:52:22
+Error	undefined	POST	/Logout	 Token Not Sent! 		 18/01/2026	23:01:28
+Error	undefined	POST	/Logout	 relation "refreshtoken" does not exist 		 18/01/2026	23:27:53
+undefined	undefined	POST	/Logout	 undefined 		 18/01/2026	23:28:45
+Error	undefined	POST	/Logout	 res.sendstatus is not a function 		 18/01/2026	23:29:19
+Error	undefined	GET	/login	 Authorization token missing or invalid 		 18/01/2026	23:42:01

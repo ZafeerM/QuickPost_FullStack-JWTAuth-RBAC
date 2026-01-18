@@ -9,4 +9,15 @@ const pool = new Pool({
   database: "QuickPost",
 });
 
+// Checking Database Connection by trying a query at start
+(async () => {
+  try {
+    await pool.query(`SELECT 1`);
+    console.log("Postgres Connected Successfully");
+  } catch (error) {
+    console.error("Postgres Connection Failed");
+    process.exit(-1); //Stop the whole app lol
+  }
+})();
+
 module.exports = pool;

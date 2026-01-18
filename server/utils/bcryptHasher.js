@@ -8,4 +8,8 @@ const bcryptHasher = async (Password) => {
   return encryptedPass;
 };
 
-module.exports = bcryptHasher;
+const bcryptCheckPass = async (passNew, passDB) => {
+  return bcrypt.compareSync(passNew, passDB);
+};
+
+module.exports = { bcryptHasher, bcryptCheckPass };

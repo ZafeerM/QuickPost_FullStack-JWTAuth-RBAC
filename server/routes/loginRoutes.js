@@ -5,12 +5,9 @@ const express = require("express");
 const router = express.Router();
 
 // Importing Controllers
-const {
-  welcomeLogin,
-  loginHandler,
-} = require("../controllers/loginController");
+const { loginHandler } = require("../controllers/authController");
 
 // Routing Connections
-router.route("/").get(welcomeLogin).post(loginHandler);
+router.route("/").post(loginHandler);
 
 module.exports = router;
