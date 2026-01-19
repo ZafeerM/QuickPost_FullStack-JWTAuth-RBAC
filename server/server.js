@@ -17,26 +17,26 @@ const { authToken } = require("./middleware/authMiddleware");
 const corsOptions = require("./config/corsSetup");
 
 // --ROUTES
-const Login = require("./routes/loginRoutes"); // Login Route
-const Signup = require("./routes/signupRoutes"); // SignUp Route
-const Logout = require("./routes/logoutRoutes"); // Logout Route
+const authRoutes = require("./routes/authRoutes"); // Authenticate
+const postsRoute = require("./routes/postsRoute"); // Posts Handling
 
 app.use(cookieParser()); //allow cookie parsing funcs
-
-app.use(eventLogger); //Event Logger
-
 app.use(express.json()); // Allowing JSON Usage
 
+app.use(eventLogger); //Event Logger
 app.use(cors(corsOptions)); // CORS Whitelist
 
-app.use("/Login", Login); // Login Route Connect
-app.use("/SignUp", Signup); // Signup Route Connect
+app.use("/auth", authRoutes); // (Signup, login, logout)
 
-app.use(authToken); //JWT TOKEN CHECK --- All forward routes are checked now
+app.use(authToken); // JWT TOKEN CHECK --- All forward routes are checked now
 
-app.use("/Logout", Logout);
+app.use("/posts", postsRoute);
 
-app.use(errorHandler); //Custom Error Handler
+app.use(errorHandler); // Custom Error Handlers
+
+app.use((req, res) => {
+  res.status(404).json({ message: "Route Not Found" });
+});
 
 // START LISTEN
 app.listen(serverPort, (err) => {

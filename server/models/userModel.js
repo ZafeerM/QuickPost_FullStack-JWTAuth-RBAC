@@ -6,7 +6,7 @@ const roles = require("../config/rolesValue"); // Roles value
 const { bcryptHasher, bcryptCheckPass } = require("../utils/bcryptHasher");
 
 // Add New User to DB (encrypt pass)
-// @Route POST /SignUp
+// @Route POST /auth/SignUp
 const addNewUser = async (user, pass) => {
   const sql = `INSERT INTO Users (User_Name, User_Pass, User_Role)
                VALUES ($1, $2, $3)
@@ -18,7 +18,7 @@ const addNewUser = async (user, pass) => {
 };
 
 // Check User in DB
-// @Route POST /Login
+// @Route POST /auth/Login
 const authUser = async (user, pass) => {
   const sql = `SELECT user_pass, user_id, user_role
                FROM Users
@@ -38,7 +38,7 @@ const authUser = async (user, pass) => {
 };
 
 // Add Refresh Token in Database
-// @Route POST /Login
+// @Route POST /auth/Login
 const addRefreshToken = async (id, token) => {
   const sql = `INSERT INTO Refreshtokens(user_id, refresh_token)
                VALUES($1, $2)`;
@@ -51,8 +51,18 @@ const addRefreshToken = async (id, token) => {
   }
 };
 
+// Get Refresh Token of User
+// @Route POST /auth/Refreshtoken
+const getRefreshToken = async (id) => {
+  const sql = `SELECT refresh_token
+               FROM refreshTokens
+               WHERE user_id = $1`;
+
+  return await pool.query(sql, [id]);
+};
+
 // Remove Refresh Token and Logout
-// @Route POST /Logout
+// @Route POST /auth/Logout
 const removeRefreshToken = async (id) => {
   const sql = `DELETE FROM refreshTokens
                WHERE user_id = $1`;
@@ -60,4 +70,4 @@ const removeRefreshToken = async (id) => {
   return await pool.query(sql, [id]);
 };
 
-module.exports = { addNewUser, authUser, addRefreshToken, removeRefreshToken };
+module.exports = { addNewUser, authUser, addRefreshToken, getRefreshToken, removeRefreshToken };

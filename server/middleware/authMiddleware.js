@@ -15,10 +15,15 @@ const authToken = (req, res, next) => {
   try {
     const { userID, userRole } = verifyToken("access", token);
 
-    req.userID = userID;
-    req.userRole = userRole;
+    // req.userID = userID;
+    // req.userRole = userRole;
 
-    console.log("Auth Middleware: ", req.userID, req.userRole);
+    req.user = {
+      id: userID,
+      role: userRole,
+    };
+
+    console.log("Auth Middleware: ", req.user.id, req.user.role);
 
     next();
   } catch (error) {

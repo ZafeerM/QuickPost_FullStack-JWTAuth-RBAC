@@ -58,3 +58,49 @@ Error	undefined	POST	/Logout	 relation "refreshtoken" does not exist 		 18/01/20
 undefined	undefined	POST	/Logout	 undefined 		 18/01/2026	23:28:45
 Error	undefined	POST	/Logout	 res.sendstatus is not a function 		 18/01/2026	23:29:19
 Error	undefined	GET	/login	 Authorization token missing or invalid 		 18/01/2026	23:42:01
+Error	undefined	POST	/Signup	 Authorization token missing or invalid 		 19/01/2026	00:26:28
+Error	undefined	POST	/auth/Signup	 Username Already In Use 		 19/01/2026	00:26:42
+Error	undefined	POST	/Login	 Authorization token missing or invalid 		 19/01/2026	00:27:00
+ReferenceError	undefined	POST	/auth/Login	 authUser is not defined 		 19/01/2026	00:27:36
+ReferenceError	undefined	POST	/auth/Login	 authUser is not defined 		 19/01/2026	00:29:44
+ReferenceError	undefined	POST	/auth/Login	 getToken is not defined 		 19/01/2026	00:30:20
+ReferenceError	undefined	POST	/auth/Login	 addRefreshToken is not defined 		 19/01/2026	00:31:25
+Error	undefined	POST	/auth/Login	 Refresh Token Already Exists! (Already Logged In) 		 19/01/2026	00:31:46
+Error	undefined	POST	/Logout	 jwt expired 		 19/01/2026	00:31:52
+Error	undefined	POST	/Logout	 invalid signature 		 19/01/2026	00:32:32
+Error	undefined	POST	/auth/Signup	 Username Already In Use 		 19/01/2026	01:09:49
+Error	undefined	GET	/login	 Authorization token missing or invalid 		 19/01/2026	01:09:56
+Error	undefined	GET	/login	 Authorization token missing or invalid 		 19/01/2026	01:10:21
+Error	undefined	POST	/auth/Login	 Refresh Token Already Exists! (Already Logged In) 		 19/01/2026	01:10:54
+Error	undefined	GET	/login	 Authorization token missing or invalid 		 19/01/2026	01:11:42
+Error	undefined	POST	/Logout	 invalid signature 		 19/01/2026	01:12:14
+ReferenceError	undefined	POST	/auth/Refreshtoken	 refreshToken is not defined 		 19/01/2026	01:33:26
+ReferenceError	undefined	POST	/auth/Refreshtoken	 refreshToken is not defined 		 19/01/2026	01:33:50
+ReferenceError	undefined	POST	/auth/Refreshtoken	 refreshToken is not defined 		 19/01/2026	01:33:55
+ReferenceError	undefined	POST	/auth/Refreshtoken	 refreshToken is not defined 		 19/01/2026	01:34:10
+ReferenceError	undefined	POST	/auth/Refreshtoken	 refreshToken is not defined 		 19/01/2026	01:35:27
+ReferenceError	undefined	POST	/auth/Refreshtoken	 refreshToken is not defined 		 19/01/2026	01:35:37
+TypeError	undefined	POST	/auth/Refreshtoken	 Cannot read properties of undefined (reading 'id') 		 19/01/2026	01:52:48
+Error	undefined	POST	/auth/Refreshtoken	 Authorization token missing or invalid 		 19/01/2026	01:53:09
+Error	undefined	POST	/auth/Refreshtoken	 Query values must be an array 		 19/01/2026	01:53:44
+Error	undefined	POST	/auth/Refreshtoken	 Query values must be an array 		 19/01/2026	01:54:13
+ReferenceError	undefined	POST	/auth/Refreshtoken	 token is not defined 		 19/01/2026	02:17:14
+ReferenceError	undefined	POST	/auth/Refreshtoken	 response is not defined 		 19/01/2026	02:27:12
+TypeError	undefined	POST	/auth/Refreshtoken	 Cannot read properties of undefined (reading 'refresh_token') 		 19/01/2026	02:28:12
+TypeError	undefined	POST	/auth/Refreshtoken	 Cannot read properties of undefined (reading 'refresh_token') 		 19/01/2026	02:29:05
+Error	undefined	POST	/auth/Logout	 jwt expired 		 19/01/2026	02:30:06
+TypeError	undefined	POST	/auth/Refreshtoken	 Cannot read properties of undefined (reading 'refresh_token') 		 19/01/2026	02:31:06
+TypeError	undefined	POST	/auth/Refreshtoken	 Cannot read properties of undefined (reading '0') 		 19/01/2026	02:32:20
+Error	undefined	POST	/auth/Login	 Username or Password Incorrect 		 19/01/2026	22:35:09
+Error	undefined	POST	/auth/Login	 Username or Password Incorrect 		 19/01/2026	22:35:16
+Error	undefined	GET	/posts	 Authorization token missing or invalid 		 19/01/2026	22:36:02
+Error	undefined	GET	/posts	 Authorization token missing or invalid 		 19/01/2026	22:36:16
+Error	undefined	GET	/posts	 jwt expired 		 19/01/2026	22:36:32
+Error	undefined	GET	/posts	 jwt expired 		 19/01/2026	22:37:12
+Error	undefined	GET	/posts	 jwt expired 		 19/01/2026	22:37:15
+Error	undefined	GET	/posts	 jwt expired 		 19/01/2026	22:37:34
+Error	undefined	POST	/auth/Login	 Refresh Token Already Exists! (Already Logged In) 		 19/01/2026	22:46:46
+Error	undefined	POST	/auth/Logout	 jwt expired 		 19/01/2026	22:46:54
+Error	undefined	GET	/posts	 jwt expired 		 19/01/2026	22:47:29
+Error	undefined	GET	/posts	 jwt expired 		 19/01/2026	22:47:53
+Error	undefined	GET	/posts	 jwt expired 		 19/01/2026	22:47:56
