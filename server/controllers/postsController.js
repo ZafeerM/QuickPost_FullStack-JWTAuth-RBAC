@@ -46,8 +46,17 @@ const deletePost = async (req, res, next) => {
       return res.status(200).json({ message: "Post Deleted - By Moderator." });
     }
 
+    // get User id
     const { user_id } = await getPost(req.params.id);
-    console.log(user_id);
+
+    // if not same ID
+    if (user_id === req.user.id) {
+      await deletePostDb(req.params.id);
+      return res.status(200).json({ message: `Post Deleted - By User ${req.user.id}.` });
+    }
+    const err = new Error("You Dont Own This Post");
+    err.status = 401;
+    throw err;
   } catch (error) {
     next(error);
   }

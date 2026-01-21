@@ -15,4 +15,5 @@ router.route("/").get(authorizeRole([roles.user, roles.viewer, roles.moderator])
 router.post("/createPost", authorizeRole([roles.user, roles.moderator]), createPost);
 // Delete Post
 router.delete("/:id", authorizeRole([roles.user, roles.moderator]), deletePost);
+
 module.exports = router;

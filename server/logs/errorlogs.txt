@@ -151,3 +151,19 @@ Error	undefined	POST	/auth/Logout	 Cannot read properties of undefined (reading 
 Error	undefined	GET	/posts	 jwt expired 		 21/01/2026	23:23:48
 Error	undefined	POST	/auth/Login	 Refresh Token Already Exists! (Already Logged In) 		 21/01/2026	23:25:06
 Error	undefined	POST	/posts/createPost	 Forbidden: You Are Not Authorized For This Request. 		 21/01/2026	23:30:01
+Error	undefined	POST	/posts/3	 Authorization token missing or invalid 		 22/01/2026	00:02:11
+TypeError	undefined	DELETE	/posts/delete	 Cannot destructure property 'user_id' of '(intermediate value)' as it is undefined. 		 22/01/2026	00:06:55
+TypeError	undefined	DELETE	/posts/9	 Cannot destructure property 'user_id' of '(intermediate value)' as it is undefined. 		 22/01/2026	00:10:06
+TypeError	undefined	DELETE	/posts/9	 Cannot destructure property 'user_id' of '(intermediate value)' as it is undefined. 		 22/01/2026	00:10:47
+TypeError	undefined	DELETE	/posts/9	 Cannot destructure property 'user_id' of '(intermediate value)' as it is undefined. 		 22/01/2026	00:10:48
+TypeError	undefined	DELETE	/posts/9	 Cannot destructure property 'user_id' of '(intermediate value)' as it is undefined. 		 22/01/2026	00:11:44
+TypeError	undefined	DELETE	/posts/5	 Cannot destructure property 'user_id' of '(intermediate value)' as it is undefined. 		 22/01/2026	00:15:06
+Error	undefined	DELETE	/posts/6	 You Dont Own This Post 		 22/01/2026	00:15:09
+Error	undefined	DELETE	/posts/6	 You Dont Own This Post 		 22/01/2026	00:15:31
+Error	undefined	POST	/auth/Login	 Username or Password Incorrect 		 22/01/2026	00:17:10
+TypeError	undefined	DELETE	/posts/6	 Cannot destructure property 'user_id' of '(intermediate value)' as it is undefined. 		 22/01/2026	00:17:30
+Error	undefined	DELETE	/posts/7	 You Dont Own This Post 		 22/01/2026	00:17:37
+Error	undefined	DELETE	/posts/8	 You Dont Own This Post 		 22/01/2026	00:17:41
+Error	undefined	POST	/posts/createPost	 Forbidden: You Are Not Authorized For This Request. 		 22/01/2026	00:17:53
+TypeError	undefined	DELETE	/posts/10	 Cannot destructure property 'user_id' of '(intermediate value)' as it is undefined. 		 22/01/2026	00:20:10
+Error	undefined	DELETE	/posts/11	 You Dont Own This Post 		 22/01/2026	00:20:14
