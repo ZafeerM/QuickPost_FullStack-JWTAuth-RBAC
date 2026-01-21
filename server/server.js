@@ -30,7 +30,7 @@ app.use("/auth", authRoutes); // (Signup, login, logout)
 
 app.use(authToken); // JWT TOKEN CHECK --- All forward routes are checked now
 
-app.use("/posts", postsRoute);
+app.use("/posts", postsRoute); //Create Delete AdminDelete Posts
 
 app.use(errorHandler); // Custom Error Handlers
 

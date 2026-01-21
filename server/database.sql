@@ -15,3 +15,12 @@ CREATE TABLE Refreshtokens(
     Refresh_Token   VARCHAR(500),
     FOREIGN KEY (User_ID) REFERENCES Users(User_ID)
 );
+
+-- Creating Posts Table
+CREATE TABLE Userposts(
+    Post_ID         SERIAL PRIMARY KEY,
+    User_ID         INTEGER,
+    Post_Data       VARCHAR(500),
+    Post_Time       VARCHAR(50),
+    FOREIGN KEY (User_ID) REFERENCES Users(User_ID)
+)

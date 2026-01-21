@@ -5,7 +5,7 @@ const jwt = require("jsonwebtoken");
 const getToken = (tokenType, ID, role) => {
   var token =
     tokenType === "access"
-      ? jwt.sign({ userID: ID, userRole: role }, process.env.ACCESS_SECRET, { expiresIn: "15s" })
+      ? jwt.sign({ userID: ID, userRole: role }, process.env.ACCESS_SECRET, { expiresIn: "1h" })
       : jwt.sign({ userID: ID, userRole: role }, process.env.REFRESH_SECRET, { expiresIn: "1h" });
 
   return token;

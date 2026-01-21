@@ -106,7 +106,7 @@ const refreshAccessToken = async (req, res, next) => {
 
     // Compare Both Tokens - Error if false
     if (!(await bcryptCheckPass(userRefreshToken, dbRefreshToken))) {
-      const err = new Error("Refresh Token Malformed (Does'nt Match With DB)");
+      const err = new Error("Refresh Token Malformed (Doesn't Match With DB)");
       err.status = 401;
       throw err;
     }
@@ -127,6 +127,11 @@ const refreshAccessToken = async (req, res, next) => {
     const accessToken = getToken("access", userID, userRole);
     res.status(200).json({ Token: accessToken });
   } catch (error) {
+    // Remove old refresh token (incase refresh expired itself);
+    if (req.user.id) {
+      await removeRefreshToken(req.user.id);
+    }
+
     next(error);
   }
 };

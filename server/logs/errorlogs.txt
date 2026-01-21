@@ -104,3 +104,50 @@ Error	undefined	POST	/auth/Logout	 jwt expired 		 19/01/2026	22:46:54
 Error	undefined	GET	/posts	 jwt expired 		 19/01/2026	22:47:29
 Error	undefined	GET	/posts	 jwt expired 		 19/01/2026	22:47:53
 Error	undefined	GET	/posts	 jwt expired 		 19/01/2026	22:47:56
+Error	undefined	GET	/posts/createpost	 Authorization token missing or invalid 		 21/01/2026	03:25:50
+Error	undefined	POST	/auth/Login	 Refresh Token Already Exists! (Already Logged In) 		 21/01/2026	03:26:08
+Error	undefined	POST	/auth/Refreshtoken	 No Refresh Token Recieved in Cookie 		 21/01/2026	03:26:18
+Error	undefined	POST	/auth/Logout	 jwt expired 		 21/01/2026	03:28:45
+Error	undefined	POST	/auth/Refreshtoken	 No Refresh Token Recieved in Cookie 		 21/01/2026	03:28:52
+Error	undefined	GET	/posts	 jwt expired 		 21/01/2026	03:30:41
+Error	undefined	POST	/posts/createPost	 err.status is not a function 		 21/01/2026	03:57:53
+Error	undefined	POST	/posts/createPost	 Req Data missing for Post 		 21/01/2026	03:58:08
+Error	undefined	POST	/posts/createPost	 Req Data missing for Post 		 21/01/2026	03:58:18
+Error	undefined	POST	/posts/createPost	 Req Data Missing For Post 		 21/01/2026	03:59:19
+Error	undefined	POST	/posts/createPost	 Req Data Missing For Post 		 21/01/2026	03:59:28
+SyntaxError	undefined	POST	/posts/createPost	 Expected property name or '}' in JSON at position 7 (line 2 column 5) 		 21/01/2026	03:59:48
+Error	undefined	POST	/posts/createPost	 Req Data Missing For Post 		 21/01/2026	04:00:01
+Error	undefined	POST	/posts/createPost	 Req Data Missing For Post 		 21/01/2026	04:00:06
+Error	undefined	POST	/posts/createPost	 Req Data Missing For Post 		 21/01/2026	04:00:17
+TypeError	undefined	POST	/posts/createPost	 addPost is not a function 		 21/01/2026	04:00:31
+TypeError	undefined	POST	/posts/createPost	 addPost is not a function 		 21/01/2026	04:01:33
+TypeError	undefined	POST	/posts/createPost	 req.status is not a function 		 21/01/2026	04:04:01
+TypeError	undefined	POST	/posts/createPost	 req.status is not a function 		 21/01/2026	04:04:10
+ReferenceError	undefined	POST	/posts/createPost	 postid is not defined 		 21/01/2026	04:04:20
+TypeError	undefined	POST	/posts/createPost	 Cannot read properties of undefined (reading '0') 		 21/01/2026	04:06:33
+TypeError	undefined	POST	/posts/createPost	 Cannot read properties of undefined (reading '0') 		 21/01/2026	04:07:11
+TypeError	undefined	POST	/posts/createPost	 Cannot read properties of undefined (reading '0') 		 21/01/2026	04:07:42
+TypeError	undefined	POST	/posts/createPost	 Cannot read properties of undefined (reading '0') 		 21/01/2026	04:08:21
+Error	undefined	POST	/auth/Signup	 Username Already In Use 		 21/01/2026	04:48:55
+Error	undefined	POST	/auth/Login	 Refresh Token Already Exists! (Already Logged In) 		 21/01/2026	04:49:02
+TokenExpiredError	undefined	POST	/auth/Refreshtoken	 jwt expired 		 21/01/2026	04:49:10
+TokenExpiredError	undefined	POST	/auth/Refreshtoken	 jwt expired 		 21/01/2026	04:49:22
+TokenExpiredError	undefined	POST	/auth/Refreshtoken	 jwt expired 		 21/01/2026	18:25:50
+TokenExpiredError	undefined	POST	/auth/Refreshtoken	 jwt expired 		 21/01/2026	18:25:52
+TokenExpiredError	undefined	POST	/auth/Refreshtoken	 jwt expired 		 21/01/2026	18:26:01
+Error	undefined	GET	/posts	 jwt expired 		 21/01/2026	18:26:15
+Error	undefined	GET	/posts	 Forbidden: You Are Not Authorized For This Request. 		 21/01/2026	18:26:20
+Error	undefined	GET	/posts	 Forbidden: You Are Not Authorized For This Request. 		 21/01/2026	18:27:24
+Error	undefined	GET	/posts	 Forbidden: You Are Not Authorized For This Request. 		 21/01/2026	18:28:33
+Error	undefined	POST	/auth/Logout	 jwt expired 		 21/01/2026	18:28:38
+Error	undefined	GET	/posts	 Forbidden: You Are Not Authorized For This Request. 		 21/01/2026	18:28:59
+TokenExpiredError	undefined	POST	/auth/Refreshtoken	 jwt expired 		 21/01/2026	21:17:00
+TokenExpiredError	undefined	POST	/auth/Refreshtoken	 jwt expired 		 21/01/2026	23:17:30
+Error	undefined	POST	/auth/Logout	 jwt expired 		 21/01/2026	23:17:35
+TokenExpiredError	undefined	POST	/auth/Logout	 jwt expired 		 21/01/2026	23:17:51
+Error	undefined	POST	/auth/Logout	 Cannot read properties of undefined (reading 'id') 		 21/01/2026	23:19:39
+TypeError	undefined	POST	/auth/Refreshtoken	 Cannot read properties of undefined (reading 'id') 		 21/01/2026	23:19:47
+Error	undefined	POST	/auth/Logout	 Cannot read properties of undefined (reading 'id') 		 21/01/2026	23:21:11
+Error	undefined	GET	/posts	 jwt expired 		 21/01/2026	23:23:48
+Error	undefined	POST	/auth/Login	 Refresh Token Already Exists! (Already Logged In) 		 21/01/2026	23:25:06
+Error	undefined	POST	/posts/createPost	 Forbidden: You Are Not Authorized For This Request. 		 21/01/2026	23:30:01
