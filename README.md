@@ -98,6 +98,6 @@ This project was built to:
 
 ## 👤 Author
 
-**Your Name**  
+**Zafeer Mahmood**  
 Backend Developer (Node.js / PostgreSQL)  
 Focused on secure, scalable API design
